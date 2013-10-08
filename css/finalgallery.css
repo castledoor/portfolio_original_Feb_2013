@@ -1,0 +1,572 @@
+
+body {
+  background:url('http://i.imgur.com/TREdmzk.jpg') no-repeat center top fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover; -o-background-size: cover;
+   background-size: cover;
+  background:url('http://i.imgur.com/TREdmzk.jpg') no-repeat center center fixed;
+    overflow-x:hidden;
+  height: 1500px;
+  width: 100%;
+  position: relative;
+}
+p{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 88%;
+  color: #444444;
+}
+* {
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  margin:0;
+}
+
+ul {
+  list-style: none;
+}
+
+#items li  a {
+  outline: 0px; 
+}
+
+ul#items li img:hover  {
+  border-bottom: 5px solid rgba(0, 153, 153, 1);
+}
+
+ul#items li a:active {
+  border-bottom: 5px solid rgba(0, 153, 153, 1);
+}
+ 
+#header {
+  background:rgba(255, 204, 51, 0.85);
+  position: relative;
+  width: 100%;
+  overflow-x:hidden;
+}
+
+img.bear {
+  position: relative;
+  left:60px;
+  width: 800px;
+  text-align: center;
+}
+
+.navigate {
+  margin:0 auto;
+  width: 960px;
+  position: relative;
+  padding:10px;
+}
+
+#navicons {
+  position: absolute;
+  left:30px;
+  display:block;
+  padding-left: 70px; 
+  top:120px;
+}
+
+#navicons ul {
+  list-style: none;
+}
+
+ul#items li img {
+  width:85px;
+}
+
+li#work1 {
+  position: absolute;
+  left:85px;
+}
+
+li#about img {
+  position:absolute;
+  left:240px;
+}
+
+li#contact img {
+  position: absolute;
+  left:580px;
+  top:3px;
+}
+
+li#blog img {
+  position: absolute;
+  left:735px;
+  top:3px;
+}
+
+/* main content */
+
+#centerpane {
+  width:100%;
+  height:100%;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  background:rgba(228, 61, 62, 0.91);
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+.container {
+  margin:0 auto;
+  width: 1200px;
+  position: relative;
+}
+
+.container3 {
+  margin:0 auto;
+  width: 100%;
+  position: relative;
+  height:auto;
+}
+
+ul.contentdesign li {
+    position: relative;
+  left:0px;
+  display:inline;
+  padding-left:0;
+  width: 300px;
+  margin: 0;
+}
+
+li#skills img {
+  width:500px;
+  left:60px;
+  top:-35px;
+  position: relative;
+}
+
+li#middle img {
+  width:170px;
+  padding-top: 70px;
+}
+
+li#design img {
+  width:360;
+  padding-bottom: 123px;
+  padding-left: -10px;
+  position: relative;
+  left:-19px;
+}
+
+/*main content end*/
+
+#footer {
+  background:rgba(0, 153, 153, 0.85);
+  width: 100%;
+  height:60px;
+  position:fixed;
+  bottom:0px;
+  margin:0px;
+  margin-bottom: -1px;
+  z-index: 1000;
+}
+
+#piggy {
+  position: absolute;
+  bottom: -3px;
+  right:20px;
+}
+
+#piggy img {
+  height: 71px;
+  margin-top: -21;
+  bottom: 101px;
+  -webkit-bottom:61px;
+}
+
+#footer p {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 88%;
+  position: absolute;
+  bottom:10px;
+  text-align: center;
+  left: 50%;
+  margin-left: -140px;
+
+}
+
+#pay { 
+  position: absolute;
+  bottom: 20px;
+  right:-10px;
+  margin-right: 100px;
+}
+
+#maincontent {
+  background:rgba(228, 61, 62, 0.91);
+  height:553px;
+  position: relative;
+}
+
+#me img {
+  width: 370;
+  z-index: 100;
+  float: left;
+  padding-top: 30px;
+  padding-left: 5px;
+  opacity:0.68;
+  /* filter:alpha(opacity=40); /* For IE8 and earlier */
+  position: relative;
+  z-index: 701;
+}
+
+#me #bio p {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #1c1b1b;
+  padding-left: 60px;
+  padding-top: 65px;
+  text-align:justify;
+  width:300px;
+  float: left;
+  font-size: 120%;
+}
+
+#banner {
+  background-color: #444444;
+  position: absolute;
+  width:100%;
+  height: 35px;
+  top: 228px;
+  opacity: 0.75;
+  z-index: 700;
+  left: 0px;
+}
+
+#banner img {
+  position: absolute;
+  padding-top: 4px;
+  padding-left: 400px;
+}
+
+WebFontConfig = {
+  google: {
+    families: [ 'Didact Gothic', sans-serif ]
+  }
+}
+
+
+/*payment*/
+
+#checkout a {
+  position: absolute;
+  right: 500px;
+
+}
+
+#payinfo img {
+  position: absolute;
+  top:70px;
+  z-index: 2001;
+  text-align: center;
+  left: 400px;
+  
+}
+
+#oink { 
+  position: absolute;
+  bottom: 20px;
+  right:-42px;
+  margin-right: 100px;
+}
+
+#checkout {
+  position: relative;
+  padding-top: 640px;
+  padding-left: 400px;
+  overflow-y:hidden;
+}
+
+#checkout a {
+  position: absolute;
+  right: 800px;
+  bottom:270px;
+  color:#444444 !important;
+} 
+#typeamount {
+  position: absolute;
+  left:0px;
+}
+.wepay-custom-button {
+  width: 100% !important;
+  padding: 4%;
+  margin: 4px 0 2px 3%;
+  position: absolute;
+  top: 600px;
+  left:600px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #e9e7cf!important;
+}
+
+.item-price {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  left: 620px;
+}
+
+.item-price-currency {
+  display: none;
+  position: absolute;
+  bottom: 300px;
+}
+
+/*contact me*/
+
+#container4{
+  margin:0 auto;
+  width: 960px;
+  position: relative;
+  height:500px;
+}
+
+iframe {
+  position: relative;
+  top: -137px;
+  z-index: 2000;
+  left:0px;
+}
+
+#contactme img{
+  z-index: 2001;
+  position: relative;
+  right:-700px;
+  width:500px;
+  top:120px;
+}
+
+ul#social li{
+  display: inline;
+  position: relative;
+    left: 820px;
+  z-index: 500;
+  top:140px;
+  
+}
+
+ul#social li {
+  
+}
+
+li img {
+  width:35px;
+  height:auto;
+}
+
+li#instagram {
+  position: relative;
+  bottom:400px;
+  left:861px;
+}
+
+li#twitter {
+  position: relative;
+  bottom:360px;
+  left:800px;
+}
+
+li#linkedin {
+  position: relative;
+  bottom:440px;
+  left:929px;
+}
+
+li#skype {
+  position: relative;
+  bottom:478px;
+  left:992px;
+}
+ul#gallery img{
+  position: absolute;
+  bottom: 370px;
+  list-style: none;
+  z-index: 400;
+  width: 300px;
+  position: absolute;
+  clip: rect(10px, 400px, 190px, 10px);
+  right: 650px;
+}
+
+/*gallery*/
+
+.content {
+  margin: 0 auto;
+  position: relative;
+}
+
+#gallery {
+  position: relative;
+  padding-top: 40px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+#gallery li {
+  float: left;
+  margin: 45px 45px 0 0;
+  position: relative;
+  -webkit-transition: all 500ms linear;
+  -moz-transition: all 500ms linear;
+  -ms-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+}
+
+#gallery li:hover {
+  opacity: 0.25;
+}
+
+#gallery li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#gallery li img {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+}
+ li#two {
+  position: relative;
+  left:0px;
+ }
+  li#three {
+  position: relative;
+  left:690px;
+  top:-245px;
+
+ }
+ li#five{
+  position: relative;
+  top:-245px;
+ }
+
+ li#market {
+ position:relative;
+ left:-347px;
+}
+ li#personal {
+ position:relative;
+ left:-300px;
+}
+
+  li#furdesign {
+  left:50px;
+
+ }
+
+ li#fakeclick {
+top:-245px;
+ }
+
+ li#animation {
+  position: relative;
+  top:245px;
+  left:-345px;
+  z-index: 300;
+  opacity: 0;
+
+ }
+/*gallery tags*/
+
+#gallerytag1 {
+  position: absolute;
+  margin-top: 178px;
+  opacity: 0.85;
+  margin-left: -80px;
+}
+
+#gallerytag1 {
+  position: absolute;
+  margin-top: 178px;
+  opacity: 0.85;
+  margin-left: -80px;
+}
+#gallerytag2 {
+  position: absolute;
+  margin-top:650px;
+  opacity: 0.85;
+  margin-left: -40px;
+}
+#gallerytag3 {
+  position: absolute;
+  margin-top:910px;
+  opacity: 0.85;
+  margin-left: -40px;
+}
+#gallerytag4 {
+  position: absolute;
+  margin-top:1172px;
+  opacity: 0.85;
+  margin-left: -40px;
+}
+
+p#galtage1 {
+  position: relative;
+  top:340px;
+  left: 437px;
+}
+
+p#galtage2 {
+  position: relative;
+  top:325px;
+  left: 737px;
+}
+
+p#galtage3 {
+  position: relative;
+  top:310px;
+  left: 1075px;
+}
+
+p#galtage4 {
+  position: absolute;
+  top:795px;
+  left: 437px;
+}
+
+p#galtage5 {
+  position: absolute;
+  top:790px;
+  left: 737px;
+  text-align: justify;
+  font-size: 12px;
+}
+p#galtage6 {
+  position: absolute;
+  top:1047px;
+  left: 403px;
+}
+p#galtage7 {
+  position: absolute;
+  top:1047px;
+  left:791px;
+}
+p#galtage8 {
+  position: absolute;
+  top:1530px;
+  left: 437px;
+}
+p#galtage9 {
+  position: absolute;
+  top:1530px;
+  left:734px;
+}
+p#galtage10 {
+  position: absolute;
+  top:1530px;
+  left: 1113px;
+}
+/*
+ colors {   #ffcc33
+          cc3333
+            #009999
+      
+      <a href="images/large/large-7.jpg" rel="prettyPhoto"><img src="images/small/thumb-7.jpg" alt="Image title 7"><div class="overlay"></div></a></li>
+                }
+*/
