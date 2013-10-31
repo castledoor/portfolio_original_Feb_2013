@@ -1,4 +1,4 @@
-architecture / early graphic design portfolio_site_2013
+architecture / side projects portfolio_site_2013
 ===================
 
 Portfolio website (needs some work) Feb 2013 
